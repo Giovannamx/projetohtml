@@ -1,0 +1,96 @@
+{ font-family 'Roboto Slab', serif;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+
+width: 300px;
+height: 400px;
+text-align: center;
+background-color: white;
+border-radius: 10px;
+padding: 20px;
+}
+
+.container {
+width: 100vw;
+height: 100vh;
+background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-blue-technology-particle-banner-image_17143.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+
+
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+
+
+form {
+    width: 300px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+form input {
+    padding: 10px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    background-color: #d0d3f1;
+    border: none;
+    border-radius: 5px;
+        
+
+}
+
+form button {
+    border: none;
+    border-radius: 10px;
+    background-color: #4e93cb;
+    width: 300px;
+    height: 56px;
+    left: 160px;
+    top: 300px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    margin-top: 10px;
+}
+
+
+#checkbox {
+   
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+
+   margin: 20px 0;
+   justify-content: space-between;
+}
+
+#conta {
+    color: black
+    font-weight: bolder;
+    display: center;
+    margin: 20px;
+    
+    }
+
+.login {
+    color: blue;
+    
+}
+
+.Ultima {
+    color: blue;
+}
+
+ 
